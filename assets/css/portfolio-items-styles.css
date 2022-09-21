@@ -18,6 +18,16 @@ button {
 * {
   box-sizing: border-box;
 }
+.credits {
+  font-size: 11px;
+  color: white;
+}
+.credits a {
+  color: gray;
+}
+.credits a:hover {
+  color: white;
+}
 
 /*Element*/
 
