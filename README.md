@@ -1,6 +1,6 @@
 # Portfolio Items
 Portfolio items design examples.\
-built on flex and grid.
+Built on flex and grid.
 ### Used:
  - HTML
  - CSS
