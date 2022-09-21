@@ -1,4 +1,5 @@
-# Portfolio Items
+# Portfolio Items. 
+HTML Template.\
 Portfolio items design examples.\
 Built on flex and grid.
 ### Used:
@@ -7,4 +8,4 @@ Built on flex and grid.
  - Some free foto
 ### Third party assets: (thanks to all who made it :pray:)
  - Foto
- > All credits in their files.
+ > All credits in template.
