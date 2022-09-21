@@ -68,7 +68,7 @@ button {
   padding-right: 15px;
   background-color: #262626;
   color: lightgray;
-  font-size: 14px;
+
 }
 .element__links {
   grid-area: 3 / 2 / 3 / 3;
