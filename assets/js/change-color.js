@@ -24,7 +24,8 @@ var targetColor = evt.currentTarget.title;
     }
   }
   else if (targetColor === "Yellow"){
-    bg.style.backgroundColor = "#333300";
+    bg.style.backgroundColor = "#997a00";
+    bg.style.transition = "2.5s"
     for (var e = elementItem.length - 1; e >= 0; e--){
       elementItem[e].style.backgroundColor = "#cccc00";
       elementItem[e].style.color = "black";
@@ -33,7 +34,7 @@ var targetColor = evt.currentTarget.title;
       elementHeader[h].style.backgroundColor = "#cccc00";
     }
     for (var d = elementDesc.length - 1; d >= 0; d--){
-      elementDesc[d].style.backgroundColor = "#999900";
+      elementDesc[d].style.backgroundColor = "#b3b300";
       elementDesc[d].style.color = "black";
     }
     for (var c = credits.length - 1; c >= 0; c--){
@@ -54,7 +55,7 @@ var targetColor = evt.currentTarget.title;
     for (var x = links.length - 1; x >= 0; x--) {
       links[x].style.color = "black";
       links[x].addEventListener("mouseenter", (event) => {
-      event.target.style.backgroundColor = "#b3b300";
+      event.target.style.backgroundColor = "#ffff00";
       });
       links[x].addEventListener("mouseout", (event) => {
       event.target.style.backgroundColor = "";
@@ -72,6 +73,7 @@ var targetColor = evt.currentTarget.title;
       });
     }
    }
+  console.log(bg.style);
 }
 
 
