@@ -40,6 +40,7 @@ button {
   color: white;
 }
 
+
 /*Element*/
 
 .element {
@@ -112,7 +113,7 @@ button {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  background-color: #1a1a1a;
+  background-color: white;
 }
 
 /*Common styles ends
@@ -183,9 +184,21 @@ main nav a:hover {
   background-color: #1a1a1a ;
 }
 
+/*Color Scheme*/
+
+.yellow {
+  background-color: yellow;
+}
+.gray {
+  background-color: #1a1a1a;
+}
+.pink {
+  background-color: pink;
+}
+
 /*For mobile phone and tablets*/
 
-@media  (max-width: 720px) {
+@media  (max-width: 1200) {
   .element__description {
     font-size: 14px;
   }
