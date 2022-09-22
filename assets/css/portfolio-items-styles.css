@@ -72,6 +72,7 @@ button {
   background-color: #262626;
   color: lightgray;
   font-size: 14px;
+  -webkit-text-size-adjust: 100%;
 }
 .element__links {
   grid-area: 3 / 2 / 3 / 3;
