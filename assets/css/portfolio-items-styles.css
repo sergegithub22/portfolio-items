@@ -174,5 +174,7 @@ main nav a:hover {
 /*For mobile phone and tablets*/
 
 @media  (max-width: 720px) {
-  
+  .element__description {
+    font-size: 14px;
+  }
 }
