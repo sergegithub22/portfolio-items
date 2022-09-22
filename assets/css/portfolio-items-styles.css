@@ -1,5 +1,16 @@
 @charset "utf-8";
 
+/*
+
+1. Common styles
+ 1.2. Element
+2. Header
+3. Main
+ 3.1 Main nav
+ 3.2 Section-gray
+
+*/
+
 /* Common styles starts */
 
 body {
@@ -97,9 +108,6 @@ button {
   background-color: #404040;
   border-radius: 0px 0px 10px 0px;
 }
-
-/*Common styles ends Layout starts*/
-
 .main-wrapper {
   width: 100%;
   margin: 0px;
@@ -107,7 +115,9 @@ button {
   background-color: #1a1a1a;
 }
 
-/*Header strats*/
+/*Common styles ends
+  Header strats
+*/
 
 .page-header {
   display: flex;
@@ -127,7 +137,8 @@ button {
 
 
 
-/*Header ends, Main content start*/
+/*Header ends
+  Main content start*/
 
 main {
   width: 100%;
@@ -162,13 +173,14 @@ main nav a:hover {
   background-color: #305169
 }
 
-/*Section-1* starts*/
+/*Section-gray* starts*/
 
 .section-gray {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #1a1a1a ;
 }
 
 /*For mobile phone and tablets*/
