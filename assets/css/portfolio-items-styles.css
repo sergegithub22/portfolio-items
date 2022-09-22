@@ -19,7 +19,7 @@ button {
   box-sizing: border-box;
 }
 .credits {
-  font-size: 0.3em;
+  font-size: 10px;
   color: white;
 }
 .credits a {
@@ -43,6 +43,9 @@ button {
   transition-timing-function: ease-out;
   color: white;
 	background-color: #333333;
+}
+.element:hover {
+  opacity: 1;
 }
 .element__header {
   grid-area: 1 / 1 / 2 / 3;
@@ -68,7 +71,7 @@ button {
   padding-right: 15px;
   background-color: #262626;
   color: lightgray;
-  font-size: 0.5em;
+  font-size: 14px;
 }
 .element__links {
   grid-area: 3 / 2 / 3 / 3;
