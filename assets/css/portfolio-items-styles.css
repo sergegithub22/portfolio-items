@@ -19,7 +19,7 @@ button {
   box-sizing: border-box;
 }
 .credits {
-  font-size: 12px;
+/*  font-size: 12px;*/
   color: white;
 }
 .credits a {
@@ -163,7 +163,7 @@ main nav a:hover {
 
 /*Section-1* starts*/
 
-.section-1 {
+.section-gray {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
