@@ -23,6 +23,7 @@ var targetColor = evt.currentTarget.title;
       });
     }
   }
+//  Yellow
   else if (targetColor === "Yellow"){
     bg.style.backgroundColor = "#997a00";
     bg.style.transition = "2.5s"
@@ -56,20 +57,53 @@ var targetColor = evt.currentTarget.title;
       links[x].style.color = "black";
       links[x].addEventListener("mouseenter", (event) => {
       event.target.style.backgroundColor = "#ffff00";
+      event.target.style.color = "black";
       });
       links[x].addEventListener("mouseout", (event) => {
       event.target.style.backgroundColor = "";
+      event.target.style.color = "black";
       });
     }
   }
+//  Pink
    else if (targetColor === "Pink"){
     bg.style.backgroundColor = "pink";
+    bg.style.transition = "2.5s"
+    for (var e = elementItem.length - 1; e >= 0; e--){
+      elementItem[e].style.backgroundColor = "#990099";
+      elementItem[e].style.color = "white";
+    }
+    for (var h = elementHeader.length - 1; h >= 0; h--){
+      elementHeader[h].style.backgroundColor = "#990099";
+    }
+    for (var d = elementDesc.length - 1; d >= 0; d--){
+      elementDesc[d].style.backgroundColor = "#660066";
+      elementDesc[d].style.color = "white";
+    }
+    for (var c = credits.length - 1; c >= 0; c--){
+      credits[c].style.color = "white";
+    }
+    for (var cl = creditsLink.length - 1; cl >= 0; cl--) {
+      creditsLink[cl].style.color = "white";
+      creditsLink[cl].addEventListener("mouseover", (event) => {
+      event.target.style.color = "white";
+      });
+      creditsLink[cl].addEventListener("mouseout", (event) => {
+      event.target.style.color = "inherit";
+      });
+    }
+    for (var l = elementLinks.length - 1; l >= 0; l--){
+      elementLinks[l].style.backgroundColor = "#990099";
+    }
     for (var x = links.length - 1; x >= 0; x--) {
+      links[x].style.color = "white";
       links[x].addEventListener("mouseenter", (event) => {
-      event.target.style.backgroundColor = "pink";
+      event.target.style.backgroundColor = "#cc00cc";
+      event.target.style.color = "white";
       });
       links[x].addEventListener("mouseout", (event) => {
       event.target.style.backgroundColor = "";
+      event.target.style.color = "white";
       });
     }
    }
