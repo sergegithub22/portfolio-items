@@ -67,7 +67,7 @@ var targetColor = evt.currentTarget.title;
   }
 //  Pink
    else if (targetColor === "Pink"){
-    bg.style.backgroundColor = "pink";
+    bg.style.backgroundColor = "#330033";
     bg.style.transition = "2.5s"
     for (var e = elementItem.length - 1; e >= 0; e--){
       elementItem[e].style.backgroundColor = "#990099";
