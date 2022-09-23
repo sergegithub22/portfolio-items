@@ -83,7 +83,7 @@ button {
   padding-right: 15px;
   background-color: #262626;
   color: lightgray;
-  font-size: 14px;
+
 /*  -webkit-text-size-adjust: 100%;*/
 }
 .element__links {
@@ -200,6 +200,6 @@ main nav a:hover {
 
 @media (max-width: 719px) {
   .element__description {
-    font-size: 13px;
+
   }
 }

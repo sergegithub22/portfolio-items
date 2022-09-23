@@ -53,7 +53,7 @@ var targetColor = evt.currentTarget.title;
       });
     }
   }
-//  Yellow
+// Yellow
   else if (targetColor === "Yellow"){
     bg.style.backgroundColor = "#997a00";
     bg.style.transition = "2.5s";
@@ -95,7 +95,7 @@ var targetColor = evt.currentTarget.title;
       });
     }
   }
-//  Pink
+// Pink
    else if (targetColor === "Pink"){
      bg.style.backgroundColor = "#330033";
       bg.style.transition = "2.5s";
