@@ -40,7 +40,6 @@ button {
   color: white;
 }
 
-
 /*Element*/
 
 .element {
@@ -73,14 +72,13 @@ button {
 .element__image {
   grid-area: 2 / 1 / 2 / 2;
   height: 240px;
-
 }
 .element__image img {
 
 }
 .element__description {
   grid-area: 2 / 2 / 2 / 3;
-/*  width: 100%;*/
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   background-color: #262626;
