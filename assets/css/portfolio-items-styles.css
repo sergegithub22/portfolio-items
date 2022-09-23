@@ -163,13 +163,15 @@ main nav ul {
   list-style: none;
   background-color: #203646;
 }
-main nav a {
+main nav button {
   display: block;
   text-decoration: none;
   color: #b3b3b3;
   padding: 15px;
+  border: none;
+  background-color: #203646;
 }
-main nav a:hover {
+main nav button:hover {
   color: white;
   background-color: #305169
 }

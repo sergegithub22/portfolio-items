@@ -11,7 +11,7 @@ var credits = document.querySelectorAll(".credits");
 var creditsLink = document.querySelectorAll(".credits-link");
 var targetColor = evt.currentTarget.title;
 //  Gray
-  if (targetColor === "Dark gray"){
+  if (targetColor === "Gray"){
     bg.style.backgroundColor = "#1a1a1a";
     bg.style.transition = "2.5s";
     for (var e = elementItem.length - 1; e >= 0; e--){
