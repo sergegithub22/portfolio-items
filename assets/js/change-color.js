@@ -1,6 +1,6 @@
 
 function changeBgColor(evt) {
-  
+
 var bg = document.querySelector(".section-gray");
 var links = document.querySelectorAll(".element__link");
 var elementHeader = document.querySelectorAll(".element__header");
@@ -9,7 +9,6 @@ var elementLinks = document.querySelectorAll(".element__links");
 var elementItem = document.querySelectorAll(".element");
 var credits = document.querySelectorAll(".credits");
 var creditsLink = document.querySelectorAll(".credits-link");
-
 var targetColor = evt.currentTarget.title;
 //  Gray
   if (targetColor === "Dark gray"){
@@ -138,9 +137,6 @@ var targetColor = evt.currentTarget.title;
       }
     }
   }
-
-
-
 var buttons = document.querySelectorAll(".color");
 for (var i = buttons.length - 1; i >= 0; i--) {  
     buttons[i].addEventListener("click", changeBgColor);
