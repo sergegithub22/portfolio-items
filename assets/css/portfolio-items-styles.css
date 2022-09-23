@@ -80,6 +80,7 @@ button {
 }
 .element__description {
   grid-area: 2 / 2 / 2 / 3;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   background-color: #262626;

@@ -30,12 +30,12 @@ var targetColor = evt.currentTarget.title;
       credits[c].style.color = "white";
     }
     for (var cl = creditsLink.length - 1; cl >= 0; cl--) {
-      creditsLink[cl].style.color = "white";
+      creditsLink[cl].style.color = "gray";
       creditsLink[cl].addEventListener("mouseover", (event) => {
-      event.target.style.color = "inherit";
+      event.target.style.color = "white";
       });
       creditsLink[cl].addEventListener("mouseout", (event) => {
-      event.target.style.color = "inherit";
+      event.target.style.color = "gray";
       });
     }
     for (var l = elementLinks.length - 1; l >= 0; l--){
