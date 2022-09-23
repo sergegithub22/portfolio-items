@@ -55,6 +55,7 @@ button {
   transition-timing-function: ease-out;
   color: lightgray;
 	background-color: #333333;
+  font-size: 14px;
 }
 .element:hover {
   opacity: 0.9;
