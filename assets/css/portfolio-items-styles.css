@@ -34,10 +34,10 @@ button {
   color: white;
 }
 .credits a {
-  color: gray;
+  color: #8c8c8c;
 }
 .credits a:hover {
-  color: white;
+  color: #bfbfbf;
 }
 
 /*Element*/
