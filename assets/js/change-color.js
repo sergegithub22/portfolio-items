@@ -54,43 +54,44 @@ var targetColor = evt.currentTarget.title;
   }
 // Yellow
   else if (targetColor === "Yellow"){
-    bg.style.backgroundColor = "#997a00";
+    bg.style.backgroundColor = "#5e4e0e";
     bg.style.transition = "2.5s";
     for (var e = elementItem.length - 1; e >= 0; e--){
-      elementItem[e].style.backgroundColor = "#cccc00";
-      elementItem[e].style.color = "black";
+      elementItem[e].style.backgroundColor = "#806c00";
+      elementItem[e].style.color = "lightgray";
     }
     for (var h = elementHeader.length - 1; h >= 0; h--){
-      elementHeader[h].style.backgroundColor = "#cccc00";
+      elementHeader[h].style.backgroundColor = "#806c00";
+      elementHeader[h].style.color = "#ffffff";
     }
     for (var d = elementDesc.length - 1; d >= 0; d--){
-      elementDesc[d].style.backgroundColor = "#b3b300";
-      elementDesc[d].style.color = "black";
+      elementDesc[d].style.backgroundColor = "#4d3d00";
+      elementDesc[d].style.color = "ffdfb3";
     }
     for (var c = credits.length - 1; c >= 0; c--){
-      credits[c].style.color = "black";
+      credits[c].style.color = "white";
     }
     for (var cl = creditsLink.length - 1; cl >= 0; cl--) {
-      creditsLink[cl].style.color = "black";
+      creditsLink[cl].style.color = "#ffb366";
       creditsLink[cl].addEventListener("mouseover", (event) => {
-      event.target.style.color = "black";
+      event.target.style.color = "white";
       });
       creditsLink[cl].addEventListener("mouseout", (event) => {
-      event.target.style.color = "inherit";
+      event.target.style.color = "#ffb366";
       });
     }
     for (var l = elementLinks.length - 1; l >= 0; l--){
-      elementLinks[l].style.backgroundColor = "#cccc00";
+      elementLinks[l].style.backgroundColor = "#806c00";
     }
     for (var x = links.length - 1; x >= 0; x--) {
-      links[x].style.color = "black";
+      links[x].style.color = "lightgray";
       links[x].addEventListener("mouseenter", (event) => {
-      event.target.style.backgroundColor = "#ffff00";
+      event.target.style.backgroundColor = "#b39800";
       event.target.style.color = "black";
       });
       links[x].addEventListener("mouseout", (event) => {
       event.target.style.backgroundColor = "";
-      event.target.style.color = "black";
+      event.target.style.color = "lightgray";
       });
     }
   }
@@ -113,12 +114,12 @@ var targetColor = evt.currentTarget.title;
         credits[c].style.color = "white";
       }
       for (var cl = creditsLink.length - 1; cl >= 0; cl--) {
-        creditsLink[cl].style.color = "white";
+        creditsLink[cl].style.color = "#ffad99";
         creditsLink[cl].addEventListener("mouseover", (event) => {
-        event.target.style.color = "white";
+        event.target.style.color = "gray";
         });
         creditsLink[cl].addEventListener("mouseout", (event) => {
-        event.target.style.color = "inherit";
+        event.target.style.color = "#ffad99";
         });
       }
       for (var l = elementLinks.length - 1; l >= 0; l--){
