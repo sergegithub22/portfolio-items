@@ -198,8 +198,8 @@ main nav a:hover {
 
 /*For mobile phone and tablets*/
 
-@media (min-width: 550px ) and (max-width: 719px) {
+@media (max-width: 719px) {
   .element__description {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
