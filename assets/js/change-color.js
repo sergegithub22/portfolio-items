@@ -54,18 +54,18 @@ var targetColor = evt.currentTarget.title;
   }
 // Yellow
   else if (targetColor === "Yellow"){
-    bg.style.backgroundColor = "#5e4e0e";
+    bg.style.backgroundColor = "#6e5411";
     bg.style.transition = "2.5s";
     for (var e = elementItem.length - 1; e >= 0; e--){
-      elementItem[e].style.backgroundColor = "#806c00";
+      elementItem[e].style.backgroundColor = "#b0861c";
       elementItem[e].style.color = "lightgray";
     }
     for (var h = elementHeader.length - 1; h >= 0; h--){
-      elementHeader[h].style.backgroundColor = "#806c00";
+      elementHeader[h].style.backgroundColor = "#b0861c";
       elementHeader[h].style.color = "#ffffff";
     }
     for (var d = elementDesc.length - 1; d >= 0; d--){
-      elementDesc[d].style.backgroundColor = "#4d3d00";
+      elementDesc[d].style.backgroundColor = "#6e5411";
       elementDesc[d].style.color = "ffdfb3";
     }
     for (var c = credits.length - 1; c >= 0; c--){
@@ -81,12 +81,12 @@ var targetColor = evt.currentTarget.title;
       });
     }
     for (var l = elementLinks.length - 1; l >= 0; l--){
-      elementLinks[l].style.backgroundColor = "#806c00";
+      elementLinks[l].style.backgroundColor = "#b0861c";
     }
     for (var x = links.length - 1; x >= 0; x--) {
       links[x].style.color = "lightgray";
       links[x].addEventListener("mouseenter", (event) => {
-      event.target.style.backgroundColor = "#b39800";
+      event.target.style.backgroundColor = "#c7971f";
       event.target.style.color = "black";
       });
       links[x].addEventListener("mouseout", (event) => {
