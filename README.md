@@ -8,4 +8,4 @@ Built on flex and grid.
  - Some free foto
 ### Third party assets: (thanks to all who made it :pray:)
  - Foto
- > All credits in template.
+

@@ -153,6 +153,7 @@ main nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
+  
   z-index: 1;
 }
 main nav ul {
