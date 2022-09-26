@@ -1,5 +1,5 @@
 
-function changeBgColor(evt) {
+function changeTheme(evt) {
 
 var bg = document.querySelector(".section-gray");
   
@@ -18,21 +18,23 @@ var targetColor = evt.currentTarget.title;
   if (targetColor === "Gray"){
     bg.style.backgroundColor = "#1a1a1a";
     bg.style.transition = "2.5s";
-    //    Menu
+// Menu
     menuBg.style.backgroundColor = "#0d0d0d";
     for (var mb = menuButtons.length - 1; mb >= 0; mb--){
       menuButtons[mb].style.backgroundColor = "#0d0d0d";
     }
     for (var m = menuButtons.length - 1; m >= 0; m--) {
-      menuButtons[m].style.color = "white";
+      menuButtons[m].style.color = "#b3b3b3";
       menuButtons[m].addEventListener("mouseenter", (event) => {
       event.target.style.backgroundColor = "#262626";
+      event.target.style.color = "white";
       });
       menuButtons[m].addEventListener("mouseout", (event) => {
       event.target.style.backgroundColor = "#0d0d0d";
+      event.target.style.color = "#b3b3b3";
       });
     }
-//    Menu end
+// Menu end
     for (var e = elementItem.length - 1; e >= 0; e--){
       elementItem[e].style.backgroundColor = "#333333";
       elementItem[e].style.color = "lightgray";
@@ -75,18 +77,20 @@ var targetColor = evt.currentTarget.title;
   else if (targetColor === "Yellow"){
     bg.style.backgroundColor = "#6e5411";
     bg.style.transition = "2.5s";
-//    Menu
+// Menu
     menuBg.style.backgroundColor = "#806600";
     for (var mb = menuButtons.length - 1; mb >= 0; mb--){
       menuButtons[mb].style.backgroundColor = "#806600";
     }
     for (var m = menuButtons.length - 1; m >= 0; m--) {
-      menuButtons[m].style.color = "b3b3b3";
+      menuButtons[m].style.color = "#b3b3b3";
       menuButtons[m].addEventListener("mouseenter", (event) => {
       event.target.style.backgroundColor = "#997a00";
+      event.target.style.color = "white";
       });
       menuButtons[m].addEventListener("mouseout", (event) => {
       event.target.style.backgroundColor = "#806600";
+      event.target.style.color = "#b3b3b3";
       });
     }
 //    Menu end
@@ -133,7 +137,7 @@ var targetColor = evt.currentTarget.title;
    else if (targetColor === "Pink"){
      bg.style.backgroundColor = "#330033";
       bg.style.transition = "2.5s";
-       //    Menu
+//    Menu
     menuBg.style.backgroundColor = "#4d004d";
     for (var mb = menuButtons.length - 1; mb >= 0; mb--){
       menuButtons[mb].style.backgroundColor = "#4d004d";
@@ -189,10 +193,10 @@ var targetColor = evt.currentTarget.title;
         });
       }
     }
-  console.log(menuBg);
+
   }
 var buttons = document.querySelectorAll(".color");
 for (var i = buttons.length - 1; i >= 0; i--) {  
-    buttons[i].addEventListener("click", changeBgColor);
+    buttons[i].addEventListener("click", changeTheme);
     
 }
