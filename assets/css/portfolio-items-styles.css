@@ -203,6 +203,6 @@ main nav button:hover {
 
 @media (max-width: 719px) {
   .element__description {
-
+    font-size: 17px;
   }
 }
