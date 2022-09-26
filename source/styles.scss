@@ -1,8 +1,12 @@
-// Scss Document
+//Common styles starts
 $body-color: #333333;
 @mixin pad_marg_0 {
   padding: 0px;
 	margin: 0px;
+}
+@mixin marg_auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 body {
 	@include pad_marg_0;
@@ -29,7 +33,7 @@ color: #bfbfbf;
 }
 }
 
-/*Element*/
+/*Element style starts*/
 
 .element {
   width: 730px;
@@ -46,9 +50,8 @@ color: #bfbfbf;
   font-size: 14px;
   :hover {
   opacity: 0.9;
+  }
 }
-}
-
 .element__header {
   grid-area: 1 / 1 / 2 / 3;
   text-align: center;
@@ -57,15 +60,13 @@ color: #bfbfbf;
   h3 {
   padding-bottom: 15px;
   padding-top: 15px;
+  }
 }
-}
- 
 .element__image {
   grid-area: 2 / 1 / 2 / 2;
   height: 240px;
 }
 .element__image img {
-
 }
 .element__description {
   grid-area: 2 / 2 / 2 / 3;
@@ -74,7 +75,6 @@ color: #bfbfbf;
   padding-right: 15px;
   background-color: #262626;
   color: lightgray;
-
 /*  -webkit-text-size-adjust: 100%;*/
 }
 .element__links {
@@ -97,16 +97,67 @@ color: #bfbfbf;
   a:last-child:hover {
   background-color: #404040;
   border-radius: 0px 0px 10px 0px;
+  }
 }
-}
+//Element style ends 
  
- 
-
 .main-wrapper {
   width: 100%;
   margin: 0px;
   padding: 0px;
   background-color: white;
 }
+//Common style ends
+
+//Header style strats
+.page-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  color: #b3b3b3;
+  background-color: #101b23;
+  h1  {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  }
+}
+
+//Main content start
+
+main {
+  width: 100%;
+  @include marg_auto;
+  /*Main nav*/
+ nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+    ul {
+      display: flex;
+      justify-content: center;
+      margin: 0px;
+      list-style: none;
+      background-color: #203646;
+    }
+    button {
+      display: block;
+      text-decoration: none;
+      color: #b3b3b3;
+      padding: 15px;
+      border: none;
+      background-color: #203646;
+    }
+    button:hover {
+      color: white;
+      background-color: #305169
+    }
+  }
+}
+
+
+ 
 
 

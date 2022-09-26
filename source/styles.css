@@ -22,7 +22,7 @@ button {
   .credits a:hover {
     color: #bfbfbf; }
 
-/*Element*/
+/*Element style starts*/
 .element {
   width: 730px;
   display: grid;
@@ -85,3 +85,42 @@ button {
   margin: 0px;
   padding: 0px;
   background-color: white; }
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  color: #b3b3b3;
+  background-color: #101b23; }
+  .page-header h1 {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px; }
+
+main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /*Main nav*/ }
+  main nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1; }
+    main nav ul {
+      display: flex;
+      justify-content: center;
+      margin: 0px;
+      list-style: none;
+      background-color: #203646; }
+    main nav button {
+      display: block;
+      text-decoration: none;
+      color: #b3b3b3;
+      padding: 15px;
+      border: none;
+      background-color: #203646; }
+    main nav button:hover {
+      color: white;
+      background-color: #305169; }
