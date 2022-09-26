@@ -201,7 +201,7 @@ main nav button:hover {
 
 /*For mobile phone and tablets*/
 
-@media (max-width: 719px) {
+@media (max-width: 1019px) {
   .element__description {
     font-size: 17px;
   }
