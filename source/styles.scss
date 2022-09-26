@@ -1,0 +1,112 @@
+// Scss Document
+$body-color: #333333;
+@mixin pad_marg_0 {
+  padding: 0px;
+	margin: 0px;
+}
+body {
+	@include pad_marg_0;
+	background-color: $body-color;
+	font-family: Sans-serif;
+}
+h1,h2,h3,h4 {
+	@include pad_marg_0;
+}
+button {
+	cursor: pointer;
+}
+* {
+  box-sizing: border-box;
+}
+.credits {
+/*  font-size: 12px;*/
+color: white;
+  a {
+color: #8c8c8c;
+}
+ a:hover {
+color: #bfbfbf;
+}
+}
+
+/*Element*/
+
+.element {
+  width: 730px;
+  display: grid;
+  margin: 40px 40px 40px 40px;
+	box-shadow: 0px 0px 18px black;
+	border-radius: 10px;
+	opacity: 0.7;
+	transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  color: lightgray;
+	background-color: $body-color;
+  font-size: 14px;
+  :hover {
+  opacity: 0.9;
+}
+}
+
+.element__header {
+  grid-area: 1 / 1 / 2 / 3;
+  text-align: center;
+  background-color: $body-color;
+  border-radius: 10px 10px 0px 0px;
+  h3 {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+}
+ 
+.element__image {
+  grid-area: 2 / 1 / 2 / 2;
+  height: 240px;
+}
+.element__image img {
+
+}
+.element__description {
+  grid-area: 2 / 2 / 2 / 3;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #262626;
+  color: lightgray;
+
+/*  -webkit-text-size-adjust: 100%;*/
+}
+.element__links {
+  grid-area: 3 / 2 / 3 / 3;
+  display: flex;
+  font-size: 14px;
+  background-color: $body-color;
+  border-radius: 0px 0px 10px 10px;
+  a {
+  flex-grow: 1;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  }
+  a:hover {
+  background-color: #404040;
+  }
+  a:last-child:hover {
+  background-color: #404040;
+  border-radius: 0px 0px 10px 0px;
+}
+}
+ 
+ 
+
+.main-wrapper {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+
