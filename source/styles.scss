@@ -157,7 +157,38 @@ main {
   }
 }
 
+//Section-gray starts
 
+.section-gray {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #1a1a1a ;
+}
+
+/*Color Scheme*/
+
+.yellow {
+  background-color: yellow;
+}
+.gray {
+  background-color: #1a1a1a;
+}
+.pink {
+  background-color: pink;
+}
+
+/*For mobile phone and tablets*/
+
+@media (max-width: 1019px) {
+  .element__description {
+    font-size: 17px;
+  }
+  .element__header {
+    font-size: 20px;
+  }
+}
  
 
 
