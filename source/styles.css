@@ -1,0 +1,221 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #333333;
+  font-family: Sans-serif;
+}
+
+h1, h2, h3, h4 {
+  padding: 0px;
+  margin: 0px;
+}
+
+button {
+  cursor: pointer;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.credits {
+  /*  font-size: 12px;*/
+  color: white;
+}
+.credits a {
+  color: #8c8c8c;
+}
+.credits a:hover {
+  color: #bfbfbf;
+}
+
+/*Element style starts*/
+.element {
+  width: 730px;
+  display: -ms-grid;
+  display: grid;
+  margin: 40px 40px 40px 40px;
+  -webkit-box-shadow: 0px 0px 18px black;
+          box-shadow: 0px 0px 18px black;
+  border-radius: 10px;
+  opacity: 0.7;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  color: lightgray;
+  background-color: #333333;
+  font-size: 14px;
+}
+.element :hover {
+  opacity: 0.9;
+}
+
+.element__header {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 1/1/2/3;
+  text-align: center;
+  background-color: #333333;
+  border-radius: 10px 10px 0px 0px;
+}
+.element__header h3 {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.element__image {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2/1/2/2;
+  height: 240px;
+}
+
+.element__description {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2/2/2/3;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #262626;
+  color: lightgray;
+  /*  -webkit-text-size-adjust: 100%;*/
+}
+
+.element__links {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 3/2/3/3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  background-color: #333333;
+  border-radius: 0px 0px 10px 10px;
+}
+.element__links a {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.element__links a:hover {
+  background-color: #404040;
+}
+.element__links a:last-child:hover {
+  background-color: #404040;
+  border-radius: 0px 0px 10px 0px;
+}
+
+.main-wrapper {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+.page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  color: #b3b3b3;
+  background-color: #101b23;
+}
+.page-header h1 {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /*Main nav*/
+}
+main nav {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+main nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px;
+  list-style: none;
+  background-color: #203646;
+}
+main nav button {
+  display: block;
+  text-decoration: none;
+  color: #b3b3b3;
+  padding: 15px;
+  border: none;
+  background-color: #203646;
+}
+main nav button:hover {
+  color: white;
+  background-color: #305169;
+}
+
+.section-gray {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1a1a1a;
+}
+
+/*Color Scheme*/
+.yellow {
+  background-color: yellow;
+}
+
+.gray {
+  background-color: #1a1a1a;
+}
+
+.pink {
+  background-color: pink;
+}
+
+/*For mobile phone and tablets*/
+@media (max-width: 1019px) {
+  .element__description {
+    font-size: 17px;
+  }
+
+  .element__header {
+    font-size: 20px;
+  }
+}

@@ -36,8 +36,9 @@ button {
   color: lightgray;
   background-color: #333333;
   font-size: 14px; }
-  .element :hover {
-    opacity: 0.9; }
+
+.element:hover {
+  opacity: 0.9; }
 
 .element__header {
   grid-area: 1 / 1 / 2 / 3;
@@ -101,36 +102,38 @@ button {
 main {
   width: 100%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; }
+
+.section-gray {
+  width: 100%;
+  background-color: #1a1a1a;
   /*Main nav*/ }
-  main nav {
+  .section-gray nav {
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
     z-index: 1; }
-    main nav ul {
+    .section-gray nav ul {
       display: flex;
       justify-content: center;
       margin: 0px;
       list-style: none;
       background-color: #203646; }
-    main nav button {
+    .section-gray nav button {
       display: block;
       text-decoration: none;
       color: #b3b3b3;
       padding: 15px;
       border: none;
       background-color: #203646; }
-    main nav button:hover {
+    .section-gray nav button:hover {
       color: white;
       background-color: #305169; }
 
-.section-gray {
-  width: 100%;
+.section-gray__content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  background-color: #1a1a1a; }
+  justify-content: center; }
 
 /*Color Scheme*/
 .yellow {
@@ -148,4 +151,7 @@ main {
     font-size: 17px; }
 
   .element__header {
+    font-size: 20px; }
+
+  .element__link {
     font-size: 20px; } }

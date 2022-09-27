@@ -73,6 +73,65 @@ var targetColor = evt.currentTarget.title;
       });
     }
   }
+  //  Deep Blue
+  if (targetColor === "Blue"){
+    bg.style.backgroundColor = "#002d33";
+    bg.style.transition = "2.5s";
+// Menu
+    menuBg.style.backgroundColor = "#00171a";
+    for (var mb = menuButtons.length - 1; mb >= 0; mb--){
+      menuButtons[mb].style.backgroundColor = "#00171a";
+    }
+    for (var m = menuButtons.length - 1; m >= 0; m--) {
+      menuButtons[m].style.color = "#b3b3b3";
+      menuButtons[m].addEventListener("mouseenter", (event) => {
+      event.target.style.backgroundColor = "#00b4cc";
+      event.target.style.color = "black";
+      });
+      menuButtons[m].addEventListener("mouseout", (event) => {
+      event.target.style.backgroundColor = "#00171a";
+      event.target.style.color = "#b3b3b3";
+      });
+    }
+// Menu end
+    for (var e = elementItem.length - 1; e >= 0; e--){
+      elementItem[e].style.backgroundColor = "#008799";
+      elementItem[e].style.color = "lightgray";
+    }
+    for (var h = elementHeader.length - 1; h >= 0; h--){
+      elementHeader[h].style.backgroundColor = "#008799";
+    }
+    for (var d = elementDesc.length - 1; d >= 0; d--){
+      elementDesc[d].style.backgroundColor = "#002d33";
+      elementDesc[d].style.color = "inherit";
+    }
+    for (var c = credits.length - 1; c >= 0; c--){
+      credits[c].style.color = "white";
+    }
+    for (var cl = creditsLink.length - 1; cl >= 0; cl--) {
+      creditsLink[cl].style.color = "#8c8c8c";
+      creditsLink[cl].addEventListener("mouseover", (event) => {
+      event.target.style.color = "#bfbfbf";
+      });
+      creditsLink[cl].addEventListener("mouseout", (event) => {
+      event.target.style.color = "#8c8c8c";
+      });
+    }
+    for (var l = elementLinks.length - 1; l >= 0; l--){
+      elementLinks[l].style.backgroundColor = "#008799";
+    }
+    for (var x = links.length - 1; x >= 0; x--) {
+      links[x].style.color = "white";
+      links[x].addEventListener("mouseenter", (event) => {
+      event.target.style.backgroundColor = "#009eb3";
+      event.target.style.color = "white";
+      });
+      links[x].addEventListener("mouseout", (event) => {
+      event.target.style.backgroundColor = "";
+      event.target.style.color = "white";
+      });
+    }
+  }
 // Yellow
   else if (targetColor === "Yellow"){
     bg.style.backgroundColor = "#6e5411";
@@ -193,7 +252,66 @@ var targetColor = evt.currentTarget.title;
         });
       }
     }
-
+// Mix
+   else if (targetColor === "Mix"){
+     bg.style.backgroundColor = "#1a3300";
+      bg.style.transition = "2.5s";
+//  Menu
+    menuBg.style.backgroundColor = "#808000";
+    for (var mb = menuButtons.length - 1; mb >= 0; mb--){
+      menuButtons[mb].style.backgroundColor = "#808000";
+      
+    }
+    for (var m = menuButtons.length - 1; m >= 0; m--) {
+      menuButtons[m].style.color = "white";
+      menuButtons[m].addEventListener("mouseenter", (event) => {
+      event.target.style.backgroundColor = "#c0c43b";
+      event.target.style.color = "#ff0000";
+      });
+      menuButtons[m].addEventListener("mouseout", (event) => {
+      event.target.style.backgroundColor = "#808000";
+      event.target.style.color = "white";
+      });
+    }
+//  Menu end
+      for (var e = elementItem.length - 1; e >= 0; e--){
+        elementItem[e].style.backgroundColor = "#00997a";
+        elementItem[e].style.color = "#ffccff";
+      }
+      for (var h = elementHeader.length - 1; h >= 0; h--){
+        elementHeader[h].style.backgroundColor = "#00997a";
+      }
+      for (var d = elementDesc.length - 1; d >= 0; d--){
+        elementDesc[d].style.backgroundColor = "#006c80";
+        elementDesc[d].style.color = "white";
+      }
+      for (var c = credits.length - 1; c >= 0; c--){
+        credits[c].style.color = "white";
+      }
+      for (var cl = creditsLink.length - 1; cl >= 0; cl--) {
+        creditsLink[cl].style.color = "#ffad99";
+        creditsLink[cl].addEventListener("mouseover", (event) => {
+        event.target.style.color = "gray";
+        });
+        creditsLink[cl].addEventListener("mouseout", (event) => {
+        event.target.style.color = "#ffad99";
+        });
+      }
+      for (var l = elementLinks.length - 1; l >= 0; l--){
+        elementLinks[l].style.backgroundColor = "#00997a";
+      }
+      for (var x = links.length - 1; x >= 0; x--) {
+        links[x].style.color = "white";
+        links[x].addEventListener("mouseenter", (event) => {
+        event.target.style.backgroundColor = "#006c4d";
+        event.target.style.color = "white";
+        });
+        links[x].addEventListener("mouseout", (event) => {
+        event.target.style.backgroundColor = "";
+        event.target.style.color = "white";
+        });
+      }
+    }
   }
 var buttons = document.querySelectorAll(".color");
 for (var i = buttons.length - 1; i >= 0; i--) {  
