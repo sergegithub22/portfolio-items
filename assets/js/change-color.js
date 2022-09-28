@@ -297,7 +297,7 @@ var ActiveColor = evt.currentTarget;
     }
 // Mix
    else if (targetColor === "Mix"){
-     bg.style.backgroundColor = "#003d99";
+     bg.style.backgroundColor = "#001a00";
       bg.style.transition = "2.5s";
 //  Menu
     menuBg.style.backgroundColor = "#00997a";
@@ -326,14 +326,14 @@ var ActiveColor = evt.currentTarget;
      evt.currentTarget.style.color = "#ff0000";
 //  Menu end
       for (var e = elementItem.length - 1; e >= 0; e--){
-        elementItem[e].style.backgroundColor = "#DC143C";
-        elementItem[e].style.color = "#ffccff";
+        elementItem[e].style.backgroundColor = "#004d00";
+        elementItem[e].style.color = "#ffff66";
       }
       for (var h = elementHeader.length - 1; h >= 0; h--){
-        elementHeader[h].style.backgroundColor = "#DC143C";
+        elementHeader[h].style.backgroundColor = "#004d00";
       }
       for (var d = elementDesc.length - 1; d >= 0; d--){
-        elementDesc[d].style.backgroundColor = "#6600cc";
+        elementDesc[d].style.backgroundColor = "#003300";
         elementDesc[d].style.color = "white";
       }
       for (var c = credits.length - 1; c >= 0; c--){
@@ -349,7 +349,7 @@ var ActiveColor = evt.currentTarget;
         });
       }
       for (var l = elementLinks.length - 1; l >= 0; l--){
-        elementLinks[l].style.backgroundColor = "#DC143C";
+        elementLinks[l].style.backgroundColor = "#004d00";
       }
       for (var x = links.length - 1; x >= 0; x--) {
         links[x].style.color = "white";
