@@ -295,8 +295,8 @@ var ActiveColor = evt.currentTarget;
         });
       }
     }
-// Light
-   else if (targetColor === "Mix"){
+// Cream
+   else if (targetColor === "Cream"){
      bg.style.backgroundColor = "#ffc180";
       bg.style.transition = "2.5s";
 //  Menu
