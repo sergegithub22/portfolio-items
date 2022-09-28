@@ -19,24 +19,18 @@ var ActiveColor = evt.currentTarget;
 
 //  Gray
   if (targetColor === "Gray"){
-    
     bg.style.backgroundColor = "#1a1a1a";
-    bg.style.transition = "2.5s";
-    
-    
-//    console.log(evt.currentTarget);
+    bg.style.transition = "2.5s";  
 // Menu
     menuBg.style.backgroundColor = "#0d0d0d";
     for (var mb = menuButtons.length - 1; mb >= 0; mb--){
       menuButtons[mb].style.backgroundColor = "#0d0d0d";
     }
-
     for (var m = menuButtons.length - 1; m >= 0; m--) {
       menuButtons[m].style.color = "#b3b3b3";
       menuButtons[m].addEventListener("mouseenter", (event) => {
           event.target.style.backgroundColor = "#262626";
           event.target.style.color = "white";
-        
       });
       menuButtons[m].addEventListener("mouseout", (event) => {
         if(event.target.title === "Gray"){
