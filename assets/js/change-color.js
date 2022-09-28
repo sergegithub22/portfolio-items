@@ -41,6 +41,7 @@ var ActiveColor = evt.currentTarget;
       menuButtons[m].addEventListener("mouseout", (event) => {
         if(event.target.title === "Gray"){
           event.target.style.backgroundColor = "#262626";
+          event.target.style.color = "white";
         }
         else {
           event.target.style.backgroundColor = "#0d0d0d";
@@ -49,6 +50,7 @@ var ActiveColor = evt.currentTarget;
       });
     }
     evt.currentTarget.style.backgroundColor = "#262626";
+    evt.currentTarget.style.color = "white";
 // Menu end
     for (var e = elementItem.length - 1; e >= 0; e--){
       elementItem[e].style.backgroundColor = "#333333";
@@ -108,6 +110,7 @@ var ActiveColor = evt.currentTarget;
       menuButtons[m].addEventListener("mouseout", (event) => {
       if(event.target.title === "Blue"){
           event.target.style.backgroundColor = "#007180";
+          event.target.style.color = "white";
         }
         else {
           event.target.style.backgroundColor = "#005a66";
@@ -116,6 +119,7 @@ var ActiveColor = evt.currentTarget;
       });
     }
     evt.currentTarget.style.backgroundColor = "#007180";
+    evt.currentTarget.style.color = "white";
 // Menu end
     for (var e = elementItem.length - 1; e >= 0; e--){
       elementItem[e].style.backgroundColor = "#008799";
@@ -173,6 +177,7 @@ var ActiveColor = evt.currentTarget;
       menuButtons[m].addEventListener("mouseout", (event) => {
       if(event.target.title === "Yellow"){
           event.target.style.backgroundColor = "#997a00";
+          event.target.style.color = "white";
         }
         else {
           event.target.style.backgroundColor = "#806600";
@@ -181,6 +186,7 @@ var ActiveColor = evt.currentTarget;
       });
     }
     evt.currentTarget.style.backgroundColor = "#997a00";
+    evt.currentTarget.style.color = "white";
 //    Menu end
     for (var e = elementItem.length - 1; e >= 0; e--){
       elementItem[e].style.backgroundColor = "#b0861c";
@@ -238,10 +244,18 @@ var ActiveColor = evt.currentTarget;
       event.target.style.color = "white";
       });
       menuButtons[m].addEventListener("mouseout", (event) => {
-      event.target.style.backgroundColor = "#4d004d";
-      event.target.style.color = "#b3b3b3";
+        if(event.target.title === "Pink"){
+          event.target.style.backgroundColor = "#b300b3";
+          event.target.style.color = "white";
+        }
+        else {
+          event.target.style.backgroundColor = "#4d004d";
+          event.target.style.color = "#b3b3b3";
+        }
       });
     }
+     evt.currentTarget.style.backgroundColor = "#b300b3";
+     evt.currentTarget.style.color = "white";
 //    Menu end
       for (var e = elementItem.length - 1; e >= 0; e--){
         elementItem[e].style.backgroundColor = "#990099";
@@ -298,10 +312,18 @@ var ActiveColor = evt.currentTarget;
       event.target.style.color = "#ff0000";
       });
       menuButtons[m].addEventListener("mouseout", (event) => {
-      event.target.style.backgroundColor = "#808000";
-      event.target.style.color = "white";
+         if(event.target.title === "Mix"){
+          event.target.style.backgroundColor = "#c0c43b";
+          event.target.style.color = "#ff0000";
+        }
+        else {
+          event.target.style.backgroundColor = "#808000";
+          event.target.style.color = "white";
+        }
       });
     }
+     evt.currentTarget.style.backgroundColor = "#c0c43b";
+     evt.currentTarget.style.color = "#ff0000";
 //  Menu end
       for (var e = elementItem.length - 1; e >= 0; e--){
         elementItem[e].style.backgroundColor = "#00997a";
