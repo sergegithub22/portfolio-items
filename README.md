@@ -1,7 +1,8 @@
 # Portfolio Items. 
 HTML Template.\
 Portfolio items design examples.\
-Built on flex and grid.
+Built on flex and grid.\
+For changing color scheme use head menu
 ### Used:
  - HTML
  - CSS

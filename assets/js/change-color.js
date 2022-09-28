@@ -297,12 +297,12 @@ var ActiveColor = evt.currentTarget;
     }
 // Mix
    else if (targetColor === "Mix"){
-     bg.style.backgroundColor = "#1a3300";
+     bg.style.backgroundColor = "#003d99";
       bg.style.transition = "2.5s";
 //  Menu
-    menuBg.style.backgroundColor = "#808000";
+    menuBg.style.backgroundColor = "#00997a";
     for (var mb = menuButtons.length - 1; mb >= 0; mb--){
-      menuButtons[mb].style.backgroundColor = "#808000";
+      menuButtons[mb].style.backgroundColor = "#00997a";
       
     }
     for (var m = menuButtons.length - 1; m >= 0; m--) {
@@ -317,7 +317,7 @@ var ActiveColor = evt.currentTarget;
           event.target.style.color = "#ff0000";
         }
         else {
-          event.target.style.backgroundColor = "#808000";
+          event.target.style.backgroundColor = "#00997a";
           event.target.style.color = "white";
         }
       });
@@ -326,14 +326,14 @@ var ActiveColor = evt.currentTarget;
      evt.currentTarget.style.color = "#ff0000";
 //  Menu end
       for (var e = elementItem.length - 1; e >= 0; e--){
-        elementItem[e].style.backgroundColor = "#00997a";
+        elementItem[e].style.backgroundColor = "#DC143C";
         elementItem[e].style.color = "#ffccff";
       }
       for (var h = elementHeader.length - 1; h >= 0; h--){
-        elementHeader[h].style.backgroundColor = "#00997a";
+        elementHeader[h].style.backgroundColor = "#DC143C";
       }
       for (var d = elementDesc.length - 1; d >= 0; d--){
-        elementDesc[d].style.backgroundColor = "#006c80";
+        elementDesc[d].style.backgroundColor = "#6600cc";
         elementDesc[d].style.color = "white";
       }
       for (var c = credits.length - 1; c >= 0; c--){
@@ -349,7 +349,7 @@ var ActiveColor = evt.currentTarget;
         });
       }
       for (var l = elementLinks.length - 1; l >= 0; l--){
-        elementLinks[l].style.backgroundColor = "#00997a";
+        elementLinks[l].style.backgroundColor = "#DC143C";
       }
       for (var x = links.length - 1; x >= 0; x--) {
         links[x].style.color = "white";
