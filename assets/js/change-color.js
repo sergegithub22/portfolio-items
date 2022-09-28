@@ -312,7 +312,7 @@ var ActiveColor = evt.currentTarget;
       event.target.style.color = "#ff0000";
       });
       menuButtons[m].addEventListener("mouseout", (event) => {
-         if(event.target.title === "Mix"){
+         if(event.target.title === "Cream"){
           event.target.style.backgroundColor = "#00b38f";
           event.target.style.color = "#ff0000";
         }
