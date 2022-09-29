@@ -121,6 +121,7 @@ var ActiveColor = evt.currentTarget;
     }
     for (var h = elementHeader.length - 1; h >= 0; h--){
       elementHeader[h].style.backgroundColor = "#008799";
+      elementHeader[h].style.color = "#ffffff";
     }
     for (var d = elementDesc.length - 1; d >= 0; d--){
       elementDesc[d].style.backgroundColor = "#002d33";
@@ -257,6 +258,7 @@ var ActiveColor = evt.currentTarget;
       }
       for (var h = elementHeader.length - 1; h >= 0; h--){
         elementHeader[h].style.backgroundColor = "#990099";
+        elementHeader[h].style.color = "#ffffff";
       }
       for (var d = elementDesc.length - 1; d >= 0; d--){
         elementDesc[d].style.backgroundColor = "#660066";
@@ -321,10 +323,10 @@ var ActiveColor = evt.currentTarget;
 //  Menu end
       for (var e = elementItem.length - 1; e >= 0; e--){
         elementItem[e].style.backgroundColor = "#ffe6cc";
-        elementItem[e].style.color = "#b300b3";
       }
       for (var h = elementHeader.length - 1; h >= 0; h--){
         elementHeader[h].style.backgroundColor = "#ffe6cc";
+        elementHeader[h].style.color = "#4d004d";
       }
       for (var d = elementDesc.length - 1; d >= 0; d--){
         elementDesc[d].style.backgroundColor = "#ffdab3";
