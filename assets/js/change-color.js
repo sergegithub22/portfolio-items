@@ -14,7 +14,7 @@ var elementItem = document.querySelectorAll(".element");
 var credits = document.querySelectorAll(".credits");
 var creditsLink = document.querySelectorAll(".credits-link");
 var targetColor = evt.currentTarget.title;
-var ActiveColor = evt.currentTarget;
+
 
 
 //  Gray
