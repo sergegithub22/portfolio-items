@@ -1,6 +1,6 @@
 # Portfolio Items. 
 HTML Template\
-Portfolio items design examples\
+Portfolio items design example\
 Built on flex and grid\
 For changing color scheme use head menu.
 ### Used:
