@@ -23,8 +23,7 @@ button {
   box-sizing: border-box;
 }
 .credits {
-/*  font-size: 12px;*/
-color: white;
+color: inherit;
   a {
 color: #8c8c8c;
 }
@@ -103,6 +102,7 @@ color: #bfbfbf;
   border-radius: 0px 0px 10px 0px;
   }
 }
+
 //Element style ends 
  
 .main-wrapper {

@@ -12,7 +12,7 @@ var elementDesc = document.querySelectorAll(".element__description");
 var elementLinks = document.querySelectorAll(".element__links");
 var elementItem = document.querySelectorAll(".element");
 var credits = document.querySelectorAll(".credits");
-var creditsLink = document.querySelectorAll(".credits-link");
+var creditsLink = document.querySelectorAll(".credits a");
 var targetColor = evt.currentTarget.title;
 
 
@@ -52,13 +52,11 @@ var targetColor = evt.currentTarget.title;
     }
     for (var h = elementHeader.length - 1; h >= 0; h--){
       elementHeader[h].style.backgroundColor = "#333333";
+      elementHeader[h].style.color = "lightgray";
     }
     for (var d = elementDesc.length - 1; d >= 0; d--){
       elementDesc[d].style.backgroundColor = "#262626";
       elementDesc[d].style.color = "inherit";
-    }
-    for (var c = credits.length - 1; c >= 0; c--){
-      credits[c].style.color = "white";
     }
     for (var cl = creditsLink.length - 1; cl >= 0; cl--) {
       creditsLink[cl].style.color = "#8c8c8c";
@@ -127,16 +125,13 @@ var targetColor = evt.currentTarget.title;
       elementDesc[d].style.backgroundColor = "#002d33";
       elementDesc[d].style.color = "inherit";
     }
-    for (var c = credits.length - 1; c >= 0; c--){
-      credits[c].style.color = "white";
-    }
     for (var cl = creditsLink.length - 1; cl >= 0; cl--) {
-      creditsLink[cl].style.color = "#8c8c8c";
+      creditsLink[cl].style.color = "#6495ED";
       creditsLink[cl].addEventListener("mouseover", (event) => {
-      event.target.style.color = "#bfbfbf";
+      event.target.style.color = "#8db0f2";
       });
       creditsLink[cl].addEventListener("mouseout", (event) => {
-      event.target.style.color = "#8c8c8c";
+      event.target.style.color = "#6495ED";
       });
     }
     for (var l = elementLinks.length - 1; l >= 0; l--){
@@ -154,8 +149,8 @@ var targetColor = evt.currentTarget.title;
       });
     }
   }
-// Yellow
-  else if (targetColor === "Yellow"){
+// Gold
+  else if (targetColor === "Gold"){
     bg.style.backgroundColor = "#6e5411";
     bg.style.transition = "2.5s";
 // Menu
@@ -170,7 +165,7 @@ var targetColor = evt.currentTarget.title;
       event.target.style.color = "white";
       });
       menuButtons[m].addEventListener("mouseout", (event) => {
-      if(event.target.title === "Yellow"){
+      if(event.target.title === "Gold"){
           event.target.style.backgroundColor = "#997a00";
           event.target.style.color = "white";
         }
@@ -193,10 +188,7 @@ var targetColor = evt.currentTarget.title;
     }
     for (var d = elementDesc.length - 1; d >= 0; d--){
       elementDesc[d].style.backgroundColor = "#6e5411";
-      elementDesc[d].style.color = "ffdfb3";
-    }
-    for (var c = credits.length - 1; c >= 0; c--){
-      credits[c].style.color = "white";
+      elementDesc[d].style.color = "#ffdfb3";
     }
     for (var cl = creditsLink.length - 1; cl >= 0; cl--) {
       creditsLink[cl].style.color = "#ffb366";
@@ -222,8 +214,8 @@ var targetColor = evt.currentTarget.title;
       });
     }
   }
-// Pink
-   else if (targetColor === "Pink"){
+// Violet
+   else if (targetColor === "Violet"){
      bg.style.backgroundColor = "#330033";
       bg.style.transition = "2.5s";
 //    Menu
@@ -239,7 +231,7 @@ var targetColor = evt.currentTarget.title;
       event.target.style.color = "white";
       });
       menuButtons[m].addEventListener("mouseout", (event) => {
-        if(event.target.title === "Pink"){
+        if(event.target.title === "Violet"){
           event.target.style.backgroundColor = "#b300b3";
           event.target.style.color = "white";
         }
@@ -263,9 +255,6 @@ var targetColor = evt.currentTarget.title;
       for (var d = elementDesc.length - 1; d >= 0; d--){
         elementDesc[d].style.backgroundColor = "#660066";
         elementDesc[d].style.color = "white";
-      }
-      for (var c = credits.length - 1; c >= 0; c--){
-        credits[c].style.color = "white";
       }
       for (var cl = creditsLink.length - 1; cl >= 0; cl--) {
         creditsLink[cl].style.color = "#ffad99";
@@ -322,35 +311,32 @@ var targetColor = evt.currentTarget.title;
      evt.currentTarget.style.color = "#ff0000";
 //  Menu end
       for (var e = elementItem.length - 1; e >= 0; e--){
-        elementItem[e].style.backgroundColor = "#ffe6cc";
+        elementItem[e].style.backgroundColor = "#ffce99";
       }
       for (var h = elementHeader.length - 1; h >= 0; h--){
-        elementHeader[h].style.backgroundColor = "#ffe6cc";
+        elementHeader[h].style.backgroundColor = "#ffce99";
         elementHeader[h].style.color = "#4d004d";
       }
       for (var d = elementDesc.length - 1; d >= 0; d--){
         elementDesc[d].style.backgroundColor = "#ffdab3";
         elementDesc[d].style.color = "black";
-      }
-      for (var c = credits.length - 1; c >= 0; c--){
-        credits[c].style.color = "white";
-      }
+      }    
       for (var cl = creditsLink.length - 1; cl >= 0; cl--) {
-        creditsLink[cl].style.color = "#ffad99";
+        creditsLink[cl].style.color = "#e67700";
         creditsLink[cl].addEventListener("mouseover", (event) => {
-        event.target.style.color = "gray";
+        event.target.style.color = "#ff3300";
         });
         creditsLink[cl].addEventListener("mouseout", (event) => {
-        event.target.style.color = "#ffad99";
+        event.target.style.color = "#e67700";
         });
       }
       for (var l = elementLinks.length - 1; l >= 0; l--){
-        elementLinks[l].style.backgroundColor = "#ffe6cc";
+        elementLinks[l].style.backgroundColor = "#ffce99";
       }
       for (var x = links.length - 1; x >= 0; x--) {
         links[x].style.color = "black";
         links[x].addEventListener("mouseenter", (event) => {
-        event.target.style.backgroundColor = "#ccfff5";
+        event.target.style.backgroundColor = "#ffe6cc";
         event.target.style.color = "black";
         });
         links[x].addEventListener("mouseout", (event) => {
