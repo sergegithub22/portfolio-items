@@ -106,34 +106,34 @@ main {
   margin-left: auto;
   margin-right: auto; }
 
-.section-gray {
+.section {
   width: 100%;
   background-color: #1a1a1a;
   /*Main nav*/ }
-  .section-gray nav {
+  .section nav {
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
     z-index: 1; }
-    .section-gray nav ul {
+    .section nav ul {
       display: flex;
       justify-content: center;
       padding: 0px;
       margin: 0px;
       list-style: none;
       background-color: #203646; }
-    .section-gray nav button {
+    .section nav button {
       display: block;
       text-decoration: none;
       color: #b3b3b3;
       padding: 15px;
       border: none;
       background-color: #203646; }
-    .section-gray nav button:hover {
+    .section nav button:hover {
       color: white;
       background-color: #305169; }
 
-.section-gray__content {
+.section__content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
@@ -150,6 +150,9 @@ main {
 
 /*For mobile phone and tablets*/
 @media (max-width: 720px) {
+  .element {
+    opacity: 1;
+  }
   .element__description {
     font-size: 17px; }
 
@@ -158,6 +161,9 @@ main {
 
   .element__link {
     font-size: 20px; }
+
+  .element__link:first-child {
+    border-radius: 0px 0px 0px 10px; }
 
   .element {
     width: 100%;

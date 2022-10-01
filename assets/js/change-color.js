@@ -1,7 +1,7 @@
 
 function changeTheme(evt) {
 
-var bg = document.querySelector(".section-gray");
+var bg = document.querySelector(".section");
   
 var menuBg = document.querySelector("main nav ul");
 var menuButtons = document.querySelectorAll("main nav button");
