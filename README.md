@@ -2,7 +2,7 @@
 Portfolio items design example\
 The main idea - change the color theme only by JS\
 For changing color scheme use head menu\
-Built on flex and grid.\
+Built on flex and grid.
 ### Used:
  - HTML
  - CSS
