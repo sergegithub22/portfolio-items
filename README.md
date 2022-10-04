@@ -1,5 +1,4 @@
 # Portfolio Items. 
-HTML Template\
 Portfolio items design example\
 The main idea - change the color theme only by JS\
 For changing color scheme use head menu\
