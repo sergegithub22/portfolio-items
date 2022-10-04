@@ -1,9 +1,9 @@
 # Portfolio Items. 
 HTML Template\
 Portfolio items design example\
+The main idea - change the color theme only by JS\
 Built on flex and grid\
-For changing color scheme use head menu\
-Not rational. Just played with JS. 
+For changing color scheme use head menu.\
 ### Used:
  - HTML
  - CSS
