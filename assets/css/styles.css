@@ -121,17 +121,22 @@ main {
       padding: 0px;
       margin: 0px;
       list-style: none;
-      background-color: #203646; }
+      background-color: #0d0d0d; }
     .section nav button {
       display: block;
       text-decoration: none;
       color: #b3b3b3;
       padding: 15px;
       border: none;
-      background-color: #203646; }
+      background-color: #0d0d0d; }
     .section nav button:hover {
       color: white;
       background-color: #305169; }
+
+.section nav button.menu-active {
+  background-color: #262626;
+  color: white;
+  font-size: 13px; }
 
 .section__content {
   display: flex;
@@ -150,9 +155,6 @@ main {
 
 /*For mobile phone and tablets*/
 @media (max-width: 720px) {
-  .element {
-    opacity: 1;
-  }
   .element__description {
     font-size: 17px; }
 

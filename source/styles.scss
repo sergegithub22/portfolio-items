@@ -171,6 +171,12 @@ main {
     }
   }
 }
+.menu-active {
+  background-color: #262626;
+  color: white;
+  font-size: 13px;
+  
+}
 .section__content {
   display: flex;
   flex-wrap: wrap;

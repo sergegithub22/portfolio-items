@@ -2,7 +2,8 @@
 HTML Template\
 Portfolio items design example\
 Built on flex and grid\
-For changing color scheme use head menu.
+For changing color scheme use head menu\
+Not rational. Just played with JS. 
 ### Used:
  - HTML
  - CSS
