@@ -21,6 +21,11 @@ button {
   .credits a:hover {
     color: #bfbfbf; }
 
+.ramka {
+  background: #FAFAFA;
+  border: 1px solid #E4E4E4;
+  padding: 8px; }
+
 /*Element style starts*/
 .element {
   width: 730px;
