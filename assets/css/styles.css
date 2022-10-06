@@ -121,17 +121,19 @@ main {
       padding: 0px;
       margin: 0px;
       list-style: none;
-      background-color: #203646; }
-    .section nav button {
-      display: block;
-      text-decoration: none;
-      color: #b3b3b3;
-      padding: 15px;
-      border: none;
-      background-color: #203646; }
-    .section nav button:hover {
-      color: white;
-      background-color: #305169; }
+      background-color: #0d0d0d; }
+
+.menu-button {
+  display: block;
+  text-decoration: none;
+  color: #b3b3b3;
+  padding: 15px;
+  border: none;
+  background-color: #0d0d0d; }
+
+.menu-button:hover {
+  color: white;
+  background-color: #262626; }
 
 .menu-active {
   background-color: #262626;

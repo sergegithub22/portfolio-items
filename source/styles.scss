@@ -69,8 +69,6 @@ color: #bfbfbf;
   height: 240px;
   }
 }
-  
-
 .element__description {
   grid-area: 2 / 2 / 2 / 3;
   width: 100%;
@@ -135,8 +133,6 @@ main {
   @include marg_auto;
 }
 
-
-
 //Section-gray starts
 
 .section {
@@ -155,21 +151,33 @@ main {
       padding: 0px;
       margin: 0px;
       list-style: none;
-      background-color: #203646;
+      background-color: #0d0d0d;
     }
-    button {
-      display: block;
-      text-decoration: none;
-      color: #b3b3b3;
-      padding: 15px;
-      border: none;
-      background-color: #203646;
-    }
-    button:hover {
-      color: white;
-      background-color: #305169
-    }
+//    button {
+//      display: block;
+//      text-decoration: none;
+//      color: #b3b3b3;
+//      padding: 15px;
+//      border: none;
+//      background-color: #0d0d0d;
+//    }
+//    button:hover {
+//      color: white;
+//      background-color: #262626;
+//    }
   }
+}
+.menu-button {
+  display: block;
+  text-decoration: none;
+  color: #b3b3b3;
+  padding: 15px;
+  border: none;
+  background-color: #0d0d0d;
+}
+.menu-button:hover {
+  color: white;
+  background-color: #262626;
 }
 .menu-active {
   background-color: #262626;
